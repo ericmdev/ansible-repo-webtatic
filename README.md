@@ -4,14 +4,12 @@ Installs Webtatic repository (containing updated web-related packages).
 
 ## Requirements
 
-- RHEL/CentOS
+- EL/Enterprise Linux (RHEL/CentOS) - Version 6
 
 ## Dependencies
 
 None.
 
-## Example Playbook
+## Ansible Galaxy
 
-    - hosts: servers
-      roles:
-        - { role: ansibles.repo-webtatic }
+ansible-galaxy install ericmdev.repo-webtatic
