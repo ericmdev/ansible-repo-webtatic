@@ -14,4 +14,4 @@ None.
 
     - hosts: servers
       roles:
-        - { role: ansibles.repo-webtatic }
+        - { role: ericmdev.repo-webtatic }
