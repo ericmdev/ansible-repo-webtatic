@@ -4,7 +4,7 @@ Installs Webtatic repository (containing updated web-related packages).
 
 ## Requirements
 
-- RHEL/CentOS
+- EL/Enterprise Linux (RHEL/CentOS) - Version 6
 
 ## Dependencies
 
