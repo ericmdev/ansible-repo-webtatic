@@ -10,8 +10,6 @@ Installs Webtatic repository (containing updated web-related packages).
 
 None.
 
-## Example Playbook
+## Ansible Galaxy
 
-    - hosts: servers
-      roles:
-        - { role: ericmdev.repo-webtatic }
+ansible-galaxy install ericmdev.repo-webtatic
