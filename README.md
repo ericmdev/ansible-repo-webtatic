@@ -12,4 +12,4 @@ None.
 
 ## Ansible Galaxy
 
-ansible-galaxy install ansibles.repo-webtatic
+ansible-galaxy install ericmdev.repo-webtatic
