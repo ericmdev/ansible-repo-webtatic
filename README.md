@@ -12,7 +12,3 @@ Installs Webtatic repository (containing updated web-related packages).
 ## Dependencies
 
 None.
-
-## Ansible Galaxy
-
-ansible-galaxy install ericmdev.repo-webtatic
