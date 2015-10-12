@@ -1,4 +1,4 @@
-# Ansible Role: Webtatic Repo
+# Ansible Role: Webtatic Repository
 
 Installs Webtatic repository (containing updated web-related packages) on RHEL/CentOS 6.x.
 
