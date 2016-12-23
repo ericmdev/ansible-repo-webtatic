@@ -1,4 +1,9 @@
 ---
-
-webtatic_repo_url: "https://mirror.webtatic.com/yum/el6/latest.rpm"
-webtatic_repo_gpg_key_url: "/etc/pki/rpm-gpg/RPM-GPG-KEY-webtatic-andy"
+repo_by_version:
+  5: http://mirror.webtatic.com/yum/el5/latest.rpm
+  6: https://mirror.webtatic.com/yum/el6/latest.rpm
+  7: https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
+key_by_version:
+  5: https://mirror.webtatic.com/yum/RPM-GPG-KEY-webtatic-andy
+  6: https://mirror.webtatic.com/yum/RPM-GPG-KEY-webtatic-andy
+  7: https://mirror.webtatic.com/yum/RPM-GPG-KEY-webtatic-el7
