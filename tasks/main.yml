@@ -1,10 +1,10 @@
 ---
 - name: Install Webtatic repo.
   yum:
-    name: "{{ webtatic_repo_url }}"
+    name: "{{ webtatic_repo_url | default(repo_by_version[ansible_distribution_major_version | int]) }}"
     state: present
 
 - name: Import Webtatic GPG key.
   rpm_key:
-    key: "{{ webtatic_repo_gpg_key_url }}"
+    key: "{{ webtatic_repo_gpg_key_url | default(key_by_version[ansible_distribution_major_version | int]) }}"
     state: present
